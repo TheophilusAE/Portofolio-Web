@@ -2,7 +2,7 @@
 
 @section('content')
     <nav>
-        <img src="{{ asset('images/logotf-removebg-preview.png') }}" alt="logo" class="logo">
+        <img src="{{ asset('Asset\Black and White Modern Initial T Technology & Gaming Logo.png') }}" alt="logo" class="logo">
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('about') }}">About</a></li>
