@@ -15,7 +15,7 @@
         <div class="container">
             <div class="header">
                 <p>Undergraduate Computer Science</p>
-                <h1>Hi, I'm <span>Theophilus Alexander Elvan</span> <br>from Indonesia</h1>
+                <h1>Hi, I'm <span>Theophilus Alexander Elvan</span><br>from Indonesia</h1>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="{{ asset('images/Profile.jpg') }}" alt="Profile Picture">
+                    <img src="{{ asset('Asset\Untitled design.svg') }}" alt="Profile Picture">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-tittle">About Me</h1>
