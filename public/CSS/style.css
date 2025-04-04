@@ -350,6 +350,9 @@ form .btn2 {
 }
 
 .copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -360,6 +363,31 @@ form .btn2 {
 
 nav .fas {
     display: none;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .person {
+    left: 45%;
 }
 
 @media only screen and (max-width: 600px) { /* Fixed max-with to max-width */

@@ -15,7 +15,11 @@
         <div class="container">
             <div class="header">
                 <p>Undergraduate Computer Science</p>
-                <h1>Hi, I'm <span>Theophilus Alexander Elvan</span><br>from Indonesia</h1>
+                <h1>Hi, I'm <span>Theophilus</span><br>from Indonesia</h1>
+            </div>
+            <div class="images">
+                <img src="Asset/shape.png" class="shape">
+                <img src="Asset/LAB01278__1_-removebg-preview.png" class="person">
             </div>
         </div>
     </div>
