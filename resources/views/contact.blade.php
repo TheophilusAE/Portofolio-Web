@@ -36,8 +36,5 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">
-            <p>Copyright © Theophilus. 2025</p>
-        </div>
     </div>
 @endsection

@@ -131,7 +131,4 @@
             <a href="#" class="btn">See More</a>
         </div>
     </div>
-    <div class="copyright">
-            <p>Copyright © Theophilus. 2025</p>
-    </div>
 @endsection

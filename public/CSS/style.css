@@ -12,6 +12,7 @@ html {
 body {
     background: #212121;
     color: #fff;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #header {
@@ -388,6 +389,40 @@ nav .fas {
 
 .images:hover .person {
     left: 45%;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(to bottom, #f7f7f7, #e7e7e7);
+}
+
+.welcome-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.welcome-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#continueButton {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#continueButton:hover {
+    background-color: #3e8e41;
 }
 
 @media only screen and (max-width: 600px) { /* Fixed max-with to max-width */
