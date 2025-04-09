@@ -9,5 +9,22 @@
 </head>
 <body>
     @yield('content')
+    <script>
+        function opentab(tabName, event) {
+            const tabContents = document.querySelectorAll('.tab-contents');
+            const tabLinks = document.querySelectorAll('.tab-links');
+
+            tabContents.forEach(content => {
+                content.classList.remove('active-tab');
+            });
+
+            tabLinks.forEach(link => {
+                link.classList.remove('active-link');
+            });
+            
+            document.getElementById(tabName).classList.add('active-tab');
+            event.currentTarget.classList.add('active-link');
+        }
+    </script>
 </body>
 </html>
