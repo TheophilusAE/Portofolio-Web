@@ -2,7 +2,7 @@
 
 @section('content')
     <nav>
-        <img src="{{ asset('Asset\Black and White Modern Initial T Technology & Gaming Logo.png') }}" alt="logo" class="logo">
+        <img src="{{ asset('Asset/Black and White Modern Initial T Technology & Gaming Logo.png') }}" alt="logo" class="logo">
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('porto') }}">Portfolio</a></li>
@@ -27,12 +27,16 @@
                     <a href="{{ asset('Asset/CV Theophilus Alexander Elvan.pdf') }}" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form action="{{ url('/contact') }}" method="POST"> <!-- Update form action -->
+                        @csrf <!-- CSRF protection -->
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    @if(session('success'))
+                        <p>{{ session('success') }}</p> <!-- Display success message -->
+                    @endif
                 </div>
             </div>
         </div>
