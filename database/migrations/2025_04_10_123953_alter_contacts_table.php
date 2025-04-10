@@ -9,7 +9,6 @@ class AlterContactsTable extends Migration
     public function up()
     {
         Schema::table('contacts', function (Blueprint $table) {
-            // Add the columns if they don't exist
             if (!Schema::hasColumn('contacts', 'name')) {
                 $table->string('name')->after('id');
             }

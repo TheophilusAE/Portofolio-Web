@@ -27,8 +27,8 @@
                     <a href="{{ asset('Asset/CV Theophilus Alexander Elvan.pdf') }}" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form action="{{ url('/contact') }}" method="POST"> <!-- Update form action -->
-                        @csrf <!-- CSRF protection -->
+                    <form action="{{ url('/contact') }}" method="POST">
+                        @csrf
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
