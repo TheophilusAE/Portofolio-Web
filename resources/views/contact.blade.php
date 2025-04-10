@@ -35,7 +35,9 @@
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                     @if(session('success'))
-                        <p>{{ session('success') }}</p> <!-- Display success message -->
+                        <script>
+                            alert("Thanks for contacting me! I will reply to you as soon as possible.");
+                        </script>
                     @endif
                 </div>
             </div>
