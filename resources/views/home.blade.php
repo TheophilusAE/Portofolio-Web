@@ -50,18 +50,18 @@
                     </div>
                     <div class="tab-contents" id="Experience">
                         <ul>
-                            <li><span>2017-2018</span><br>Pengurus OSIS Bidang Kesenian</li>
-                            <li><span>2018-2019</span><br>Pengurus OSIS Bidang Sosial</li>
-                            <li><span>2020-2021</span><br>Pengurus OSIS Bidang Kerohanian</li>
-                            <li><span>2021-2022</span><br>Pengurus inti OSIS</li>
+                            <li><span>2024-Present</span><br>Laboratorium Assistant</li>
+                            <li><span>2024-2025</span><br>Duita Binusian 2420</li>
+                            <li><span>2023-2024</span><br>Duta Binusian 2410</li>
+                            <li><span>2025-2026</span><br>Ketua Regional HIMTI Binus@Malang</li>
                             <li><span>August-Oktober 2022</span><br>Panitia Inti Festival Pelajar Nusantara</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="Educations">
                         <ul>
-                            <li><span>2011-2017</span><br>SD</li>
-                            <li><span>2017-2020</span><br>SMP</li>
-                            <li><span>2020-2023</span><br>SMA</li>
+                            <li><span>2011-2017</span><br>SD Santa Angela Banjarmasin</li>
+                            <li><span>2017-2020</span><br>SMPK Kanaan Banjarmasin</li>
+                            <li><span>2020-2023</span><br>SMAK Kanaan Banjarmasin</li>
                             <li><span>2023-Present</span><br>Bina Nusantara University</li>
                         </ul>
                     </div>
