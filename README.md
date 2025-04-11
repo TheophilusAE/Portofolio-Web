@@ -1,5 +1,5 @@
-Helooo, Welcome to my Portofolio Website Repository.
+Hello! 🌟 Welcome to my Portfolio Website Repository!
 
-If you want to see my code, you can see it at branch Master
+If you're interested in exploring my code, feel free to check it out on the Master branch. 💻✨
 
-Thankyouuu, Have a nice Day
+Thank you for visiting, and have a wonderful day! 😊🌈
